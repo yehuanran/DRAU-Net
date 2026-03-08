@@ -5,13 +5,18 @@
 - albumentations
 - Torchmetrics==0.11.4
   
-2. datasets
+2. datasets structure
 - data
-- - inria
-- - -train
-  - - - image
-      - label
-        
+    - inria
+        - train
+             - image
+             - label
+        - val
+             - image
+             - label
+        - test
+             - image
+             - label
 3. train
 -python train.py --dataset inria --n_timesteps 25
 
