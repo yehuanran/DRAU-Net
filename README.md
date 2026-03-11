@@ -18,7 +18,7 @@
              - image
              - label
 3. train
--python train.py --dataset inria --n_timesteps 16
+- python train.py --dataset inria --n_timesteps 16
 
-5. test
--python test.py --load_checkpoint output/checkpoints/20250401-0413_unet/20250401-0413_unet_e1.pt
+4. test
+- python test.py --load_checkpoint output/checkpoints/20250401-0413_unet/20250401-0413_unet_e1.pt
