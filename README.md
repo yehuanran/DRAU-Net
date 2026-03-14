@@ -26,14 +26,12 @@ pip install einops==0.6.1 imageio==2.28.1   albumentations   Torchmetrics==0.11.
 │inria/
 ├──austin1/
 │  ├── images
-│  │   ├── austin1_0_0.jpg
-│  │   ├── austin1_0_1.jpg
+│  │   ├── austin1.jpg
 │  │   ├── ......
 │  ├── binary_masks
 ├──austin2/
 │  ├── images
-│  │   ├── austin2_0_0.jpg
-│  │   ├── austin2_0_1.jpg
+│  │   ├── austin2.jpg
 │  │   ├── ......
 │  ├── ......
 ```
